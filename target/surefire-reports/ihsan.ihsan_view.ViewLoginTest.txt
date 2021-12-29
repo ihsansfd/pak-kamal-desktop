@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: ihsan.ihsan_view.ViewLoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.086 s <<< FAILURE! - in ihsan.ihsan_view.ViewLoginTest
+testGetPasswordTF  Time elapsed: 0.05 s  <<< ERROR!
+java.lang.NoClassDefFoundError: ihsan/ihsan_view/ViewLogin
+	at ihsan.ihsan_view.ViewLoginTest.testGetPasswordTF(ViewLoginTest.java:48)
+Caused by: java.lang.ClassNotFoundException: ihsan.ihsan_view.ViewLogin
+	at ihsan.ihsan_view.ViewLoginTest.testGetPasswordTF(ViewLoginTest.java:48)
+
